@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Tuee_mca_mock/static/css/main.426c25ef.css",
-    "main.js": "/Tuee_mca_mock/static/js/main.8b266312.js",
+    "main.js": "/Tuee_mca_mock/static/js/main.cb111c4c.js",
     "index.html": "/Tuee_mca_mock/index.html",
     "main.426c25ef.css.map": "/Tuee_mca_mock/static/css/main.426c25ef.css.map",
-    "main.8b266312.js.map": "/Tuee_mca_mock/static/js/main.8b266312.js.map"
+    "main.cb111c4c.js.map": "/Tuee_mca_mock/static/js/main.cb111c4c.js.map"
   },
   "entrypoints": [
     "static/css/main.426c25ef.css",
-    "static/js/main.8b266312.js"
+    "static/js/main.cb111c4c.js"
   ]
 }
