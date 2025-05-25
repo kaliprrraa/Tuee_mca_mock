@@ -1,4 +1,4 @@
- export const questions = [
+export const questions = [
   // Mathematics (15 Questions)
   {
     question: "What is the derivative of \(x^4 - 2x^3 + x - 7\)?",
@@ -313,7 +313,8 @@
   }
 ];
 export const SECTIONS = {
-  Math: { start: 1, end: 1, negative: true },
-  GK: { start: 2, end: 2, negative: false }
-  // Add more sections if needed
+  Mathematics: { start: 1, end: 10, negative: true },
+  "Computer Science": { start: 11, end: 20, negative: true },
+  "Logical Reasoning": { start: 21, end: 30, negative: false },
+  English: { start: 31, end: 40, negative: false }
 };
