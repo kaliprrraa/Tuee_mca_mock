@@ -17,6 +17,8 @@ const sectionColors = [
   "#f472b6", // pink
 ];
 
+const sectionOrder = ["Mathematics", "Computer Science", "Logical Reasoning", "English"];
+
 function App() {
   const [responses, setResponses] = useState({});
   const [currentQ, setCurrentQ] = useState(0);
@@ -204,14 +206,16 @@ function App() {
             <div className="result-dashboard">
               <h2>Result Dashboard</h2>
               <div className="dashboard-cards">
-                {Object.entries(breakdown).map(([sec, sc], idx) => (
+                {sectionOrder.map((sec, idx) => (
                   <div
                     key={sec}
                     className="dashboard-card"
                     style={{ background: sectionColors[idx % sectionColors.length] }}
                   >
                     <span className="dashboard-section">{sec}</span>
-                    <span className="dashboard-score">{sc.toFixed(2)}</span>
+                    <span className="dashboard-score">
+                      {breakdown[sec] !== undefined ? breakdown[sec].toFixed(2) : "0.00"}
+                    </span>
                   </div>
                 ))}
               </div>
